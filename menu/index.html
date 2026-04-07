@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Cappadocia Mediterranean Kitchen</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/png">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_colored.png">
+    <meta name="description"
+        content="Cappadocia Mediterranean Kitchen, We serve traditional Turkish lahmacun, pide, and Mediterranean grill dishes made with fresh ingredients and authentic recipes." />
+    <link rel="canonical" href="https://cappadociakitchen.com/menu/" />
+    <link rel="stylesheet" href="../assets/style.css?v=1">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../">
+                <div class="logo-box">
+                    <img src="../assets/images/Cappadocia-Logo-Transparent.png" alt="Cappadocia Logo">
+                </div>
+            </a>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="../">HOME</a></li>
+                    <li><a href="../menu/">MENUS</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <section class="menu-page">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <div class="menu-img-wrapper">
+                <img src="../assets/images/Printed-Menu-03-06-2026.jpg" alt="Menu">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Cappadocia Mediterranean Kitchen</p>
+            <br>
+            <p style="font-size: 12px;">Powered by <a href="https://azer.io" target="_blank" style="color: #F2C94C;">azer.io</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle2 = document.getElementById('menu-toggle');
+        const nav2 = document.querySelector('.nav-menu');
+
+        toggle2.addEventListener('click', () => {
+            nav2.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
